@@ -3,7 +3,7 @@ import React from 'react'
 export default function City({city}) {
     console.log(city)
     return (
-      <div className="ciudad">
+      <div className="bg-blue-200 max-h-full relative">
          <div className="container">
               <h2>{city.name}</h2>
               <div className="info">

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Card({ min, max, name, img, onClose, id }) {
   return (
-    <div class="py-10 px-6 ml-5 mt-2 w-8/12 bg-gradient-to-r from-green-300  to-green-700 rounded-lg relative transform transition duration-500 hover:scale-110">
+    <div class="py-10 px-6 ml-5 mt-5 w-8/12 bg-gradient-to-b from-gray-400  to-blue-500 rounded-lg relative transform transition duration-500 hover:scale-110">
 
         <div className="top-0 right-0 absolute">
             <h1></h1>
